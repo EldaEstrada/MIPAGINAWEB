@@ -41,5 +41,6 @@ celnumero.innerText = i + 1
 celnombre.innerText = estudiantes[i].apellidop + " " + estudiantes[i].apellidom + " " + estudiantes[i].nombre;
 celedad.innerText = estudiantes[i].edad;
 celcarrera.innerText = estudiantes[i].carrera
+
 table.append(templ);
 }
